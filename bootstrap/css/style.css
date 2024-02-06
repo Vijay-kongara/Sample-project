@@ -1,0 +1,80 @@
+/* ADD YOUR CUSTOM STYLES */
+html{
+    scroll-behavior: smooth;
+}
+.bg-teal , .btn-teal{
+    background-color: #236666 !important;
+}
+.text-teal{
+    color: #236666 !important;
+}
+.carousel .carousel-indicators li {
+    width: 30px;
+    height: 5px;
+    border-radius: 0%
+}
+.carousel-caption{
+    bottom: 150px;
+}
+/*media Query*/
+@media (max-width: 576px) {
+    .carousel-caption{
+        bottom: 10px;
+    }
+    .carousel-caption h5{
+        font-size: 25px;
+    }
+    .carousel-caption{
+        display: 5px;
+    }
+    #box{
+        background-color: rgb(147, 167, 143);
+        color: white;
+    }
+    .h2{
+        color: red;
+    }
+    .Gsection{
+        width: 500px;
+        margin: 2px;
+        border: 3px solid green;
+    }
+    #cr{
+        width: 350px !important;
+    }
+}
+
+/*hover styles*/
+.card:hover{
+    background-color: lightblue;
+    width:102%;
+    box-shadow: 2px 2px 2px 2px red;
+    border-radius: 12px;
+    
+}
+
+.vk{
+    height: 500px!important;
+}
+.Gsection{
+    height: 200px;
+    width:350px;
+}
+.Gsection:hover{
+    width:102%;
+    height:105%;
+    box-shadow: 2px 2px 2px 2px red;
+    border-radius: 10px;
+}
+#image{
+    height: 200px;
+    width: 200px;
+    align-items: center ;
+}
+#cr{
+    height: 200px;
+    width: 1000px;
+}
+#mahi{
+    text-align:center;
+}
